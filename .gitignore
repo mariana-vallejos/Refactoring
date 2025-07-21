@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+dist/
+.env
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Jest
+coverage/
+
+# VSCode (si usas este editor)
+.vscode/
+
+# Sistema operativo (opcional pero recomendable)
+.DS_Store
+Thumbs.db
