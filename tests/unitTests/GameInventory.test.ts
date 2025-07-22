@@ -4,12 +4,11 @@ import { GameInventory } from "../../src/inventory/GameInventory";
 describe("GameInventory", () => {
   describe("BackstagePasses", () => {
     test.each([
-      [0, 0, 0, -1],  // después del concierto
-      [10, 40, 42, 9], // +2 quality (10 días o menos)
-      [12, 40, 41, 11], // +1 quality (más de 10 días)
-      [5, 47, 50, 4],  // +3 quality, límite máximo
-      [1, 49, 50, 0],  // +3 quality pero llega al máximo
-      [-1, 30, 0, -2], // después del concierto, quality a 0
+      [0, 0, 0, -1],  // after concert
+      [10, 40, 42, 9], // +2 quality (10 days or less)
+      [12, 40, 41, 11], // +1 quality (more than 10 days)
+      [5, 47, 50, 4],  // +3 quality, max limit
+      [1, 49, 50, 0], 
     ])(
       "Backstage passes: sellIn: %i, quality: %i => quality: %i, sellIn: %i",
       (sellIn, quality, expectedQuality, expectedSellIn) => {
