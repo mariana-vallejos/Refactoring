@@ -1,4 +1,4 @@
-import { Item } from "./inventory/Item";
+import { Item } from "./inventory/items/Item";
 import { GameInventory } from "./inventory/GameInventory";
 
 console.log("Here we are!");
@@ -8,7 +8,7 @@ const items: Item[] = [
   new Item("Aged Brie", 2, 0),
   new Item("Elixir of the Mongoose", 5, 7),
   new Item("Sulfuras, Hand of Ragnaros", 0, 80),
-  new Item("Sulfuras, Hand of sRagnaros", -1, 80),
+  new Item("Sulfuras, Hand of Ragnaros", -1, 80),
   new Item("Backstage passes to a Pokemon Gym concert", 15, 20),
   new Item("Backstage passes to a Pokemon Gym concert", 10, 49),
   new Item("Backstage passes to a Pokemon Gym concert", 5, 49),

@@ -1,4 +1,4 @@
-import { Item } from "../../src/inventory/Item";
+import { Item } from "../../src/inventory/items/Item";
 import { GameInventory } from "../../src/inventory/GameInventory";
 
 describe("GameInventory", () => {
